@@ -7,7 +7,7 @@ This project helps developers and professionals create **clean, professional, an
 
 ## 🚀 Live Demo
 
-🔗 (Add your Netlify/Vercel link here)
+🔗 https://linkdin-banner.netlify.app/
 
 ---
 
