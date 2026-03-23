@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #0f172a;
+}
+
+.banner {
+    width: 1584px;
+    height: 396px;
+    margin: 20px auto;
+    position: relative;
+    background: url("banner.png") center/cover no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.7), rgba(0,0,0,0.2));
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 40px 80px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #3b82f6;
+    margin-right: 60px;
+}
+
+.text h1 {
+    font-size: 42px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text h2 {
+    font-size: 26px;
+    color: #93c5fd;
+    margin-bottom: 10px;
+}
+
+.roles {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.value {
+    color: #9ca3af;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 15px;
+    color: #d1d5db;
+}
+
+.badge {
+    position: absolute;
+    right: 60px;
+    bottom: 30px;
+    background: linear-gradient(135deg, #3b82f6, #6366f1);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.2;
+}
